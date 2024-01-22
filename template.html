@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2 style="background-color:MediumSeaGreen;">EV Car Range Technical Report</h2>
+
+<table>
+  <tr>
+    <th>Kilometer kilometers Used </th>
+    <th>State of Charge</th>
+    <th>Temperature</th>
+    <th>Energy Demand</th>
+  </tr>
+  <tr>
+    <td><span style="font-size:15px">{{ kilometers_used }}</span><br/></td>
+    <td><span style="font-size:15px">{{ state_of_charge }}</span><br/></td>
+    <td><span style="font-size:15px">{{ temperature }}</span><br/></td>
+    <td><span style="font-size:15px">{{ energy_demand }}</span><br/></td>
+
+    <tr>
+      <th>State of Health </th>
+      <th>Driving Pattern</th>
+      <th>Environmental Condition</th>
+      <th>Weather Conditions</th>
+
+  </tr>
+  <tr>
+    <td><span style="font-size:15px">{{ state_of_health }}</span> <br/></td>
+    <td><span style="font-size:15px">{{ driving_pattern }}</span> <br/></td>
+    <td><span style="font-size:15px">{{ environmental_conditions }}</span> <br/></td>
+    <td><span style="font-size:15px">{{ weather_conditions }}</span> <br/></td>
+  </tr>
+  <tr>
+    <td>Test Data</td>
+    <td>Test Data</td>
+    <td>Test Data</td>
+    <td>Test Data</td>
+  </tr>
+  <tr>
+    <td>Test Data</td>
+    <td>Test Data</td>
+    <td>Test Data</td>
+    <td>Test Data</td>
+  </tr>
+  <tr>
+    <td>Test Data</td>
+    <td>Test Data</td>
+    <td>Test Data</td>
+    <td>Test Data</td>
+  </tr>
+</table>
+
+</body>
+</html>
